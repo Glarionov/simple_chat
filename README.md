@@ -24,7 +24,7 @@ composer install --ignore-platform-reqs
 
 Далее по очереди запустите следующие команды
 - chmod -R 777 .
-- vendor/bin/sail up -d
+- vendor/bin/sail up -d --build
 - vendor/bin/sail php artisan migrate --seed
 - vendor/bin/sail npm i
 - vendor/bin/sail npm run dev
